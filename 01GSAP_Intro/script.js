@@ -57,14 +57,14 @@
 //   yoyo: true, // => bounce back hote
 // });
 
-gsap.to("#box1", {
-  x: 0,
-  duration: 2,
-  rotate: -360,
-  delay: 1,
-  repeat: -1,
-  yoyo: true,
-});
+// gsap.to("#box1", {
+//   x: 0,
+//   duration: 2,
+//   rotate: -360,
+//   delay: 1,
+//   repeat: -1,
+//   yoyo: true,
+// });
 
 gsap.from("#box2", {
   x: 0,
@@ -72,16 +72,16 @@ gsap.from("#box2", {
   duration: 2,
   opacity: 0,
   delay: 3.5,
-  repeat: -1,
+  // repeat: -1,
   scale: 0.2,
   yoyo: true,
 });
 
-gsap.to("#box3", {
-  x: 0,
-  backgroundColor: "yellow",
-  duration: 2,
-  delay: 6,
-  repeat: -1,
-  yoyo: true,
-});
+// gsap.to("#box3", {
+//   x: 0,
+//   backgroundColor: "yellow",
+//   duration: 2,
+//   delay: 6,
+//   repeat: -1,
+//   yoyo: true,
+// });
