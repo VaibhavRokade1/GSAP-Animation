@@ -1,4 +1,3 @@
-import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 
 function App() {
@@ -7,7 +6,7 @@ function App() {
   useEffect(() => {
     gsap.fromTo(
       boxRef.current,
-      { opacity: 0, y: 50 },  // starting state
+      { opacity: 0, y: 50 }, // starting state
       { opacity: 1, y: 0, duration: 1, ease: "power3.out" } // ending state
     );
   }, []);
